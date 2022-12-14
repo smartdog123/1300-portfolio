@@ -1,0 +1,397 @@
+html {
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.9;
+}
+
+
+/* nav bar */
+
+.navbar-brand {
+    color: grey;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-brand:hover,
+.my-navbar.scroll .navbar-brand:hover {
+    color: #3496d8;
+}
+
+.my-nav-link {
+    font-size: 1.2rem;
+    color: darkgrey;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-collapse ul {
+    width: 50%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.my-nav-link:hover {
+    color: #3496d8;
+    text-decoration: underline;
+    transition: .5s ease;
+}
+
+.my-navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #f4f4f4;
+    top: 0;
+    z-index: 99;
+}
+
+
+/*  header */
+
+.my-hero-text-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 250px 0px 0px 0px;
+}
+
+.my-hero-title {
+    font-size: 3.0rem;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.my-hero-subtitle {
+    font-size: 1.5rem;
+    color: #888888;
+}
+
+.tm-intro-next {
+    /*position: absolute;*/
+    /*bottom: 100px;*/
+    left: 0;
+    right: 0;
+}
+
+.tm-down-arrow-link {
+    display: block;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.tm-down-arrow {
+    color: #c57e7d;
+    cursor: pointer;
+    background: white;
+    border-radius: 50%;
+    padding: 10px 22px 8px;
+    transition: all 0.3s ease;
+}
+
+.tm-down-arrow:hover,
+.tm-down-arrow:focus {
+    color: white;
+    background: #90d7ec;
+}
+
+.header-container {
+    background: linear-gradient(104.05deg, rgba(20, 91, 125, 0.15) 0.31%, rgba(52, 150, 216, 0.1) 28.63%, rgba(122, 132, 221, 0.108) 60.87%, rgba(255, 255, 255, 0) 100%);
+}
+
+.header-container-proj {
+    background: linear-gradient(104.05deg, rgba(204, 0, 255, 0.15) 0.31%, rgba(235, 73, 219, 0.066) 28.63%, rgba(122, 132, 221, 0.108) 60.87%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+/* section */
+
+.my-section-title {
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+
+
+.my-section-pad-top {
+    padding-top: 135px;
+}
+
+.my-project-pad-top {
+    padding-top: 150px;
+}
+
+.my-text-primary {
+    color: #3496d8;
+}
+
+.welcome-text {
+    font-family: "Gill Sans";
+}
+
+.intro-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-info {
+    font-size: 1.5rem;
+    font-family: "Gill Sans";
+}
+
+.project-title {
+    font-family: "Comic Sans MS";
+    text-decoration: none;
+}
+
+.my-intro-text {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.my-intro-text-container {
+    padding-left: 15px;
+    padding-top: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-text {
+    color: #888888;
+}
+
+.my-icon {
+    display: block;
+    margin-bottom: 55px;
+    color: #3496d8;
+    width: 100%;
+}
+
+.my-intro-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.project-img {
+    opacity: 1;
+    display: block;
+    width: 600px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.project-img-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #e8e8e8;
+    color: #3496d8;
+    font-size: 1.5rem;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.project-img-container {
+    position: relative;
+    width: 50%;
+    cursor: pointer;
+
+}
+
+.project-img-caption {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+video {
+    height: auto;
+    width: 70%;
+    display: block;
+    margin: 40px auto;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+form input, form textarea {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: block;
+    width: 600px;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+}
+
+
+form textarea {
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+form input:focus, form textarea:focus {
+    -moz-box-shadow: 0 0px 2px #3496d8 !important;
+    -webkit-box-shadow: 0 0px 2px #3496d8 !important;
+    box-shadow: 0 0px 2px #3496d8 !important;
+}
+
+/* animation */
+
+.color-change-charcter {
+    background-image: linear-gradient(
+            -225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.project-img-container:hover .project-img {
+    opacity: 0.3;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+
+.project-img-container:hover .img-middle {
+    opacity: 1;
+}
+
+.wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+    10% {
+        transform: rotate(14.0deg)
+    }
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+    30% {
+        transform: rotate(14.0deg)
+    }
+    40% {
+        transform: rotate(-4.0deg)
+    }
+    50% {
+        transform: rotate(10.0deg)
+    }
+    60% {
+        transform: rotate(0.0deg)
+    }
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0.0deg)
+    }
+}

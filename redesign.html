@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Redesign</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css"/>
+</head>
+<body>
+
+<!--nav bar section-->
+<section>
+    <nav class="navbar navbar-expand-md my-navbar pt-3">
+        <div class="container">
+            <div class="my-next">
+                <a href="#" class="navbar-brand" style="font-size: 2rem">Responsive Redesign</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="#Overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="#low">LowFi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="#high">HighFi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="#guide">Style</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="#web">Redesign</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="header-container">
+    <div class="container">
+        <div class="row">
+            <div class="text-center my-hero-text-container">
+                <div class="my-hero-text-container-inner w-50 align-self-center">
+                    <h2 class="my-hero-title">Responsive Redesign</h2>
+                    <p class="my-hero-subtitle">
+                        The goal of this project is to practice the workflow of redesigning a simple website. I learnt the
+                        skills necessary to analyze and identify flaws in an existing interface, create low-fidelity and
+                        high-fidelity prototypes for various screen sizes, and build a responsive website based on those
+                        prototypes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="tm-next tm-intro-next">
+                <a href="#Overview" class="text-center tm-down-arrow-link">
+                    <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Overview" class="my-section-pad-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="img/chongqing.png" alt="Image" class="img-fluid my-intro-img"/>
+            </div>
+            <div class="col-lg-6">
+                <div class="my-intro-text-container">
+                    <h2 class="my-text-primary mb-4 my-section-title">Overview</h2>
+                    <p class="mb-4 my-intro-text">
+                        I am redesigning the website of a Chinese food restaurant.
+                        <strong>Link to the website: </strong> <a href="https://www.chongqinghouseri.com/">chongqing
+                        house</a>
+                    </p>
+                    <p>
+                        Problem with <b>Learnability:</b>
+                    </p>
+                    <ul>
+                        <li>The navigation bar is too small for audiences to read and understand.</li>
+                        <li>Too many unnecessary text instructions on the homepage.</li>
+                        <li>No need to show current date on the page.</li>
+                    </ul>
+                    <p>
+                        Problem with <b>Usability:</b>
+                    </p>
+                    <ul>
+                        <li>Static elements/Lacks reactive UI.</li>
+                        <li>Duplicate buttons squeezed on the page bottom.</li>
+                        <li>Hard distinguish “Cart” from other navigation bar menus.</li>
+                        <li>“Login” is mixed with other buttons.</li>
+                    </ul>
+                    <p>
+                        Problem with <b>Memorability:</b>
+                    </p>
+                    <ul>
+                        <li>Too many contents, crowded, lack of visual hierarchy</li>
+                        <li>Lots of repeated information.</li>
+                    </ul>
+                    <p>
+                        Problem with <b>Accessibility:</b>
+                    </p>
+                    <ul>
+                        <li>It has significant accessibility issues. WAVE report points out some errors with the current
+                            page. The main errors are form control has no or too much labels, and there are empty
+                            buttons. Other issues include redundant link, very small text, etc.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="low" class="my-section-pad-top">
+    <div class="container reveal fade-bottom">
+        <h2 class="my-text-primary mb-4 my-section-title">Low-fidelity Wireframing</h2>
+        <div class="row my-section-pad-top">
+            <div class="col-lg-12">
+                <h4 class="text-center my-text-primary mb-4">Desktop</h4>
+                <img src="img/low-web.png" alt="Image" class="img-fluid my-intro-img"/>
+            </div>
+        </div>
+        <div class="row my-section-pad-top">
+            <div class="col-lg-6">
+                <h4 class="text-center my-text-primary mb-4">Tablet</h4>
+                <img src="img/low-pad.png" alt="Image" class="img-fluid my-intro-img"/>
+            </div>
+            <div class="col-lg-6">
+                <h4 class="text-center my-text-primary mb-4">Phone</h4>
+                <img src="img/low-phone.png" alt="Image" class="img-fluid my-intro-img"/>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="high" class="my-section-pad-top">
+    <div class="container reveal fade-bottom">
+        <h2 class="my-text-primary mb-4 my-section-title">High-fidelity Wireframing</h2>
+        <div class="row my-section-pad-top">
+            <div class="col-lg-12">
+                <h4 class="text-center my-text-primary mb-4">Desktop</h4>
+                <img src="img/high-web.png" alt="Image" class="img-fluid my-intro-img" style="border: 1px solid black"/>
+            </div>
+        </div>
+        <div class="row my-section-pad-top">
+            <div class="col-lg-6">
+                <h4 class="text-center my-text-primary mb-4">Tablet</h4>
+                <img src="img/high-pad.png" alt="Image" class="img-fluid my-intro-img" style="border: 1px solid black"/>
+            </div>
+            <div class="col-lg-6">
+                <h4 class="text-center my-text-primary mb-4">Phone</h4>
+                <img src="img/high-phone.png" alt="Image" class="img-fluid my-intro-img"
+                     style="border: 1px solid black"/>
+            </div>
+        </div>
+        <h1 class="pt-5">Responsiveness Summary</h1>
+        <p>
+            The responsiveness is achieved by using Bootstrap grid system and collapsable navbar. For tablet screen
+            size, the top menu bar is collapsed, and the "Order Online" and "Order by Phone" button become vertically
+            aligned. In terms of mobile screen, the "Chongqing House" title is made invisible, and the footer items
+            become vertically aligned.
+        </p>
+    </div>
+</section>
+
+<section id="guide" class="my-section-pad-top">
+    <div class="container reveal fade-bottom">
+        <h2 class="my-text-primary mb-4 my-section-title">Visual Design Style Guide</h2>
+        <div class="row my-section-pad-top">
+            <div class="col-lg-12">
+                <img src="img/guide.png" alt="Image" class="img-fluid my-intro-img" style="border: 1px solid black"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="web" class="my-section-pad-top">
+    <div class="container reveal fade-right">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="img/web.png" alt="Image" class="img-fluid my-intro-img"/>
+            </div>
+            <div class="col-lg-6">
+                <div class="my-intro-text-container">
+                    <h2 class="my-text-primary mb-4 my-section-title">Redesign</h2>
+                    <p class="mb-4 my-intro-text">
+                        <strong>Link to the website: </strong> <a href="https://smartdog123.github.io/redesigned-web/">click
+                        here!</a>
+                    </p>
+                    <p>
+                        The new page for Chongqing House is responsive to different sizes of browsers. It makes
+                        improvements and solved the usability issue previously discussed.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <p class="mb-3 mt-4 h2 footer-text">
+            Thanks for watching!
+        </p>
+    </footer>
+</section>
+
+<script src="js/home.js"></script>
+
+</body>
+</html>

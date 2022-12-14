@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Development</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css"/>
+</head>
+<body>
+
+<!--nav bar section-->
+<section>
+    <nav class="navbar navbar-expand-md my-navbar pt-3">
+        <div class="container">
+            <div class="my-next">
+                <a href="#" class="navbar-brand" style="font-size: 2rem">Development</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="#principles">Principles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="#summary">Summary</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="header-container">
+    <div class="container">
+        <div class="row">
+            <div class="text-center my-hero-text-container">
+                <div class="my-hero-text-container-inner w-50 align-self-center">
+                    <h2 class="my-hero-title">Development</h2>
+                    <p class="my-hero-subtitle">
+                        The goal of this project is to develop an interactive interface, use interface components, and
+                        tie the components to an internal data state. Get even more comfortable with React by creating a
+                        list-based interface
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="tm-next tm-intro-next">
+                <a href="#overview" class="text-center tm-down-arrow-link">
+                    <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="overview" class="my-section-pad-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <img src="img/dev-overview.png" alt="Image" class="img-fluid my-intro-img" style="border: solid black 1px"/>
+            </div>
+            <div class="col-lg-4">
+                <div class="my-intro-text-container">
+                    <h2 class="my-text-primary mb-4 my-section-title">Overview</h2>
+                    <p class="mb-4 my-intro-text">
+                        This is a grocery App. It allows user to browser different categories of items, sort the items
+                        by price and popularity, filter out onsale items and add/remove item from the shopping cart. The
+                        App is straightforward and easy to use.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="principles" class="my-section-pad-top">
+    <div class="container reveal fade-bottom">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="">
+                    <h2 class="my-text-primary mb-4 my-section-title">Design Principles</h2>
+                    <p class="mt-5 my-intro-text">
+                        During development, I considered the following usability principles:
+                    </p>
+                    <ul>
+                        <li class="pt-2">
+                            <b>User control and freedom</b>: It's common for user for perform wrong actions. There is a
+                            "All" choice for both two filters to make sure it can revert back to the original state
+                            without refreshing the page.
+                        </li>
+                        <li class="pt-2">
+                            The application provides button to easily add and remove items from the shopping cart. Also,
+                            the states of each item (how many items are in the shopping cart) and the total price are
+                            kept consistent across the page.
+                        </li>
+                        <li class="pt-2">
+                            The sorting and filter are clearly indicated, as well as their options.
+                        </li>
+                        <li class="pt-2">
+                            The shopping cart and the filter section is sticked when user scolls the page, improving the
+                            memorability.
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="summary" class="my-section-pad-top">
+    <div class="container reveal fade-bottom">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="">
+                    <h2 class="my-text-primary mb-4 my-section-title">Summary</h2>
+                    <p class="mt-5 my-intro-text">
+                        Link to <a href="https://smartdog123.github.io/1300-development/">webpage</a>
+                    </p>
+                    <p class="my-intro-text pt-3">
+                        The design of the application follows the web design of a typical grocery delivery service,
+                        where the items are on the middle of the screen and the cart is on the right hand side. The
+                        filters and sort are on the left of the main page where the items are aligned.
+                        There's also a "All" button where users can revert back to the original state without refreshing
+                        the page.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <p class="mb-3 mt-4 h2 footer-text">
+            Thanks for watching!
+        </p>
+    </footer>
+</section>
+
+<script src="js/home.js"></script>
+</body>
+</html>
